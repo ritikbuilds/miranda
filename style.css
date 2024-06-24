@@ -1,0 +1,644 @@
+@font-face {
+    font-family: canopee;
+    src: url(fonts/canopee/Canopee\ Regular.otf);
+}
+@font-face {
+    font-family: editorial;
+    src: url(fonts/editorial/PPEditorialNew-Regular-BF644b214ff145f.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: canopee;
+}
+
+.main{
+    background: #c1b9b0;
+    position: relative;
+}
+
+
+.page1{
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    background: #c1b9b0;
+}
+.page2{
+    height: 170vh;
+    width: 100%;
+    position: relative;
+    background: #c1b9b0;
+}
+
+.navbar{
+    width: 100%;
+    background: #c1b9b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 3rem;
+    border-bottom: 1px solid black;
+    z-index: 999;
+    
+}
+
+.navbar h1{
+    font-family: editorial;
+    font-size: 1.1vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.navbar .logo {
+    width: 20rem;
+    cursor: pointer;
+}
+
+.navbar i{
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+/* ................................................................................................................ */
+
+    .rows{
+       margin-top: 2rem;
+    }
+.rows .row{
+    width: 35%;
+    padding: 4rem;
+}
+
+.rows .row2{
+    width: 30%;
+}
+
+.row .image{
+    cursor: pointer;
+    width: 90%;
+    height: 20rem;
+    overflow: hidden;
+}
+
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s transform ease;
+}
+
+.row .image:hover img{
+    transform: scale(1.2);
+    
+}
+
+.rows{
+    font-family: editorial;
+    display: flex;
+}
+
+
+.rows .row h1{
+    font-family: canopee;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.rows .row h1 span{
+    color: #c1b9b0;
+    background: #b83c12;
+    font-size: 1.2vw;
+    font-weight: 300;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.rows .row p{
+    font-weight: 100;
+    margin-top: 2rem;
+    font-size: 1.5vw;
+    width: 90%;
+}
+
+.rows .row2{
+    padding: 2rem;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.rows .row2 h1{
+    font-family: canopee;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+.rows .row2 p{
+    font-size: 2vw;
+    width: 95%;
+
+}
+
+.row2{
+    align-self: center;
+}
+
+.rows .row2 p:last-child{
+    font-size: 1.3vw;
+    text-transform: capitalize;
+}
+.rows .row2 p:last-child span{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 36vw;
+    font-weight: 100;
+    line-height: 0.9;
+    letter-spacing:-2rem;
+    background: #1c1c1a;
+    color: #c1b9b0;
+    margin: 4rem 3rem;
+}
+
+/* ................................................page2............................................. */
+
+
+.page2-content{
+    display: flex;
+    padding: 3rem;
+}
+
+.page2-content-left{
+    width: 40%;
+
+}
+.page2-content-left h1{
+    display: inline-block;
+    text-align: center;
+    font-size:7vw;
+    font-weight: 100;
+}
+
+.page2-content-left h1 span{
+    font-size: 10vw;
+}
+
+.page2-content-left img{
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+}
+
+.page2-content-left p{
+    font-size: 2.5vw;
+    font-family: editorial;
+    font-weight: 100;
+    width: 90%;
+}
+
+.page2-content-left p::first-letter{
+    font-size: 5vw;
+    background: #000;
+    color: #c1b9b0;
+}
+
+.page2-content-right img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+.page2-content-right{
+    padding: 2rem;
+    border-left: 1px solid black;
+    width: 60%;
+    font-size:7vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: -0.5rem;
+    text-align: center;
+}
+
+.page3{
+    background: #c1b9b0;
+}
+
+.website-container{
+    display: flex;
+}
+
+.title-website{
+    font-size: 27vw;
+    padding: 3rem;
+    width: 75%;
+    line-height: 0.8;
+}
+
+.page3-content img{
+    width: 25%;
+    object-fit: cover;
+    object-position: center;
+    padding: 4rem;
+}
+
+
+.upcoming-next{
+    display: flex;
+}
+.upcoming-next-left{
+    width: 70%;
+    border-right: 1px solid black;
+}
+
+.upcoming-next-left h1{
+    font-family: canopee;
+    font-weight: 100;
+}
+
+.unl{
+    display: flex;
+    font-family: editorial;
+}
+
+.unl-left{
+    width: 40%;
+    padding: 2rem ;
+}
+
+
+.unl-left h1{
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+.unl-left p{
+    margin-top: 1rem;
+    font-size: 2.7vw;
+    font-weight: 100;
+    width: 90%;
+}
+
+
+.unl-right{
+    width: 60%;
+    padding: 3rem;
+    cursor: pointer;
+    border-left: 1px solid black;
+}
+
+
+.unl-right-image img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s transform ease;
+
+}
+
+.unl-right-image:hover img{
+    transform: scale(1.1);
+}
+
+.unl-right-image{
+    cursor: pointer;
+    width: 90%;
+    height:60%; 
+    overflow: hidden;
+}
+
+
+.unl-right h1{
+    margin-top: 1rem;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.unl-right p{
+    font-size: 1vw;
+    width: 80%;
+}
+
+.upcoming-next-left>img{
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+    margin: 2rem ; 
+    padding: 0;
+}
+
+.upcoming-next-right{
+    padding: 2rem;
+    width: 30%;
+}
+
+.upcoming-next-right h1{
+    font-size: 6vw;
+}
+.upcoming-next-right p{
+    font-family: editorial;
+    margin-top: 2rem;
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+
+.oval{
+    width: 70%;
+    margin: 10rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+
+
+.oval h1{
+    white-space: nowrap;
+    font-size: 3vw;
+    transition: 0.3s transform ease;
+    transform: translateX(-40%);
+
+}
+.oval img{
+    width: 50%;
+   transform: translateX(-140%);
+    transition: 0.3s transform ease;
+
+}
+
+.oval:hover img{
+    transform: translateX(60%);
+}
+.oval:hover h1{
+    transform: translateX(150%);
+}
+.oval:hover{
+    border: 1px solid black;
+}
+
+/* ...........................................................page4....................................................... */
+
+.page4{
+    background: #c1b9b0;
+    margin-top: 5rem;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.details h1{
+    font-size: 4vw;
+}
+
+
+.details p{
+    font-family: editorial;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.det-1,.det-2,.det-3,.det-4{
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    padding: 2rem;
+}
+
+ .det-1-content::after{
+    content: '9';
+    position: absolute;
+    right: 1%; 
+    transform: translateY(-80%);
+    font-size: 10vw;
+    padding: 0;
+    margin: 0;
+} 
+ .det-2-content::after{
+    content: '1';
+    position: absolute;
+    right: 2%; 
+    transform: translateY(-80%);
+    font-size: 10vw;
+    padding: 0;
+    margin: 0;
+} 
+ .det-3-content::after{
+    content: '6';
+    position: absolute;
+    right: 2%; 
+    transform: translateY(-80%);
+    font-size: 10vw;
+    padding: 0;
+    margin: 0;
+
+} 
+ .det-4-content::after{
+    content: '8';
+    position: absolute;
+    right: 1%; 
+    transform: translateY(-80%);
+    font-size: 10vw;
+    padding: 0;
+    margin: 0;
+} 
+.elem{
+    margin-top: 10rem;
+    display: flex;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.elem-left{
+    flex-shrink: 0;
+    width: 45%;
+    margin-right: 4rem;
+}
+
+
+.elem-left-in{
+    display: flex;
+}
+
+.heading{
+    font-size: 27vw;
+    font-weight: 200;
+    letter-spacing:-1rem;
+    line-height: 0.8;
+}
+
+
+.elem-left-in img{
+    width: 24%;
+    height: 24%;
+    border: 1px solid black;
+    flex-shrink: 0;
+}
+
+.elem-right img{
+    width: 92%;
+    height: 92%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.elem2{
+    display: flex;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.elem2 img{
+    width: 19vw;
+    flex-shrink: 0;
+    border: 1px solid black;
+    margin-right: 2.5vw;
+}
+
+.elem2 .heading{
+    font-size: 25vw;
+}
+
+
+/* ..............................................................page5........................................... */
+
+
+.page5-content .rows::before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    max-width: 180rem;
+    width: 95%;
+    background: #000;
+    top: 0;
+    left: 1.5%; 
+}
+.page5-content .rows {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.marquee{
+    white-space: nowrap;
+    padding: 2rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 2rem;
+    padding: 4rem 0;
+    margin-bottom: 1px solid black;
+    cursor: pointer;
+  
+}
+
+.marquee::-webkit-scrollbar{
+    display: none;
+}
+
+.page5-content .marquee h1{
+    font-size: 4vw;
+    word-spacing: 2rem;
+    display: inline-block;
+    margin-left: 2rem;
+    animation: animate-marquee 3s linear infinite;
+}
+
+.page5-content .marquee h1 span{
+    text-transform: uppercase;
+    background: #000;
+    color: #c1b9b0;
+    padding: 1rem;
+    line-height: 0.9;
+}
+
+.marquee:hover h1{
+    animation-play-state: paused;
+}
+
+@keyframes animate-marquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 2.4rem));
+    }
+}
+
+
+/* ............................................................footer......................................... */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 0 2rem;
+    padding: 3rem 0;
+    border-top: 1px solid black;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-left h1{
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.footer-left img{
+    width: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer-left p{
+    font-family: editorial;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+
+.social-icons{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.social-icons li{
+    margin-right: 4rem;
+}
+
+    
+
+

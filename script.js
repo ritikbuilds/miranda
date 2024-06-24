@@ -1,0 +1,32 @@
+
+const scroll= new LocomotiveScroll({
+    el:document.querySelector('.main'),
+    smooth:true
+}
+)
+
+let tl=gsap.timeline()
+
+tl.to(".to-animate",{
+    y:'100vh',
+    scale:0.4,
+    duration:0
+})
+
+tl.to(".to-animate",{
+    y:'-90vh',
+    delay:0.5,
+    duration:1
+})
+
+tl.to(".to-animate",{
+    y:0,
+    rotate:'-720deg',
+    delay:1,
+    duration:1,
+    scale:1,
+})
+
+
+
+
